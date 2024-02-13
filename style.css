@@ -2,7 +2,7 @@ body {
     background-color: #ffefcb;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif, Varela Round, SecularOne Regular;
+    font-family: Varela Round, Secular One;
 }
 
 header {
@@ -14,8 +14,8 @@ bar {
     text-align: right;
 }
 
-#logo {
-    font-family: 'SecularOne';
+.logo {
+    font-family: 'Secular One';
     padding-right: 0;
     font-weight: bold;
     font-size: 64px;
@@ -41,9 +41,13 @@ bar a {
     font-size: 24px;
 }
 
-#login {
+bar a:hover {
+    color: #B85533;
+}
+
+.login {
     padding-top: 40px;
-    font-family: 'Varela Round';
+    font-family: "Varela Round";
     padding-left: 50px;
     float: left;
     margin: 0;
@@ -52,22 +56,26 @@ bar a {
     font-weight: bold;
 }
 
+.login:hover {
+    color: #B85533;
+}
+
 .slogan {
-    font-size: 5vw;
+    font-size: 4vw;
     color: #B85533;
     text-align: right;
     padding-right: 8vw;
-    padding-top: 6vw;
+    padding-top: 0vw;
     font-weight: lighter;
 }
 
 .start-button {
     position: relative;
     top: -3vw;
-    margin-left: 59%;
+    margin-left: 63%;
     background-color: #FFEFCB;
     color: #FFA800;
-    padding: 2vw 4vw;
+    padding: 1vw 3vw;
     font-size: 2vw;
     border: 0.2vw solid #FFA800;
     border-radius: 2vw;
@@ -77,4 +85,12 @@ bar a {
 .start-button:hover {
     color: white;
     background-color: #FFA800;
+}
+
+.homeImg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65%;
+    z-index: -1;
 }
