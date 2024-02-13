@@ -39,6 +39,7 @@ bar a {
     color: black;
     font-weight: lighter;
     font-size: 24px;
+    
 }
 
 bar a:hover {
@@ -67,6 +68,7 @@ bar a:hover {
     padding-right: 8vw;
     padding-top: 0vw;
     font-weight: lighter;
+    
 }
 
 .start-button {
@@ -82,6 +84,10 @@ bar a:hover {
     cursor: pointer;
 }
 
+.start-button a{
+    text-decoration: none;
+
+}
 .start-button:hover {
     color: white;
     background-color: #FFA800;
