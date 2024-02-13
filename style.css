@@ -61,7 +61,7 @@ bar a:hover {
 }
 
 .slogan {
-    font-size: 4vw;
+    font-size: 3vw;
     color: #B85533;
     text-align: right;
     padding-right: 8vw;
@@ -71,12 +71,12 @@ bar a:hover {
 
 .start-button {
     position: relative;
-    top: -3vw;
-    margin-left: 63%;
+    top: -2.9vw;
+    margin-left: 80.8%;
     background-color: #FFEFCB;
     color: #FFA800;
-    padding: 1vw 3vw;
-    font-size: 2vw;
+    padding: 0.7vw 1vw;
+    font-size: 1vw;
     border: 0.2vw solid #FFA800;
     border-radius: 2vw;
     cursor: pointer;
@@ -91,6 +91,12 @@ bar a:hover {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 65%;
+    width: 60%;
     z-index: -1;
+}
+
+/*about data*/
+.aboutPhoto {
+    position: absolute;
+    width: 65%;
 }
