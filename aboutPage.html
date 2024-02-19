@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="naviStyle.css" />
+    <link rel="stylesheet" href="sing_in_out.css" />
+    <link rel="html" href="navi.html" />
     <title>about page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <bar> <!--הבר הצהוב למעלה-->
-            <ul>
-                <li class="logo">גן-לי</li>
-                <li><a href="index.html">בית</a></li>
-                <li><a href="aboutPage.html">אודות</a></li>
-                <li><a href="GardensList.html">גנים</a></li>
-                <li><a href="#" class="login">התחברות</a></li>
-            </ul>
-        </bar>
+      <bar>
+        <ul>
+          <a href="index.html"><li class="logo">גן-לי</li></a>
+          <li><a href="index.html">בית</a></li>
+          <li><a href="aboutPage.html">אודות</a></li>
+          <li><a href="GardensList.html">גנים</a></li>
+          <li>
+            <a href="#" class="login" onclick="openLoginPopup()">התחברות</a>
+          </li>
+        </ul>
+      </bar>
     </header>
-    <img src="https://pic1.calcalist.co.il/PicServer2/20122005/305274/shutterstock_2283577372767_.jpg" alt="monky"
-        class="aboutPhoto">
-</body>
 
+    <img
+      src="https://pic1.calcalist.co.il/PicServer2/20122005/305274/shutterstock_2283577372767_.jpg"
+      alt="monky"
+      class="aboutPhoto"
+    />
+  </body>
 </html>

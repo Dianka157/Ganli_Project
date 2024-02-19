@@ -2,58 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Ganli List Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="naviStyle.css" />
+  <link rel="stylesheet" href="sing_in_out.css" />
+  <link rel="stylesheet" href="GardensListStyle.css" />
+  <script src="script.js"></script>
+  <script src="tableSort.js"></script>
+  <title>Ganim list</title>
 </head>
 
 <body>
-    <header>
-        <bar> <!--הבר הצהוב למעלה-->
-            <ul>
-                <li class="logo">גן-לי</li>
-                <li><a href="index.html">בית</a></li>
-                <li><a href="aboutPage.html">אודות</a></li>
-                <li><a href="GardensList.html">גנים</a></li>
-                <li><a href="#" class="login">התחברות</a></li>
-            </ul>
-        </bar>
-    </header>
+  <header>
+    <bar>
+      <ul>
+        <a href="index.html">
+          <li class="logo">גן-לי</li>
+        </a>
+        <li><a href="index.html">בית</a></li>
+        <li><a href="aboutPage.html">אודות</a></li>
+        <li><a href="GardensList.html">גנים</a></li>
+        <li>
+          <a href="#" class="login" onclick="openLoginPopup()">התחברות</a>
+        </li>
+      </ul>
+    </bar>
+  </header>
 
+  <h1 class="ganListLogo">צעד קטן לאדם וצעד ענק לאנושות</h1>
 
-    <h2>רשימת הגנים</h2>
-
-    <table class="table">
-        <thead>
-            <tr>
-                <th>שם</th>
-                <th>אופי הגן</th>
-                <th>כתובת</th>
-                <th>מחיר</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>גן 1</td>
-                <td>אופי הגן 1</td>
-                <td>כתובת 1</td>
-                <td>מחיר 1</td>
-            </tr>
-            <tr>
-                <td>גן 2</td>
-                <td>אופי הגן 2</td>
-                <td>כתובת 2</td>
-                <td>מחיר 2</td>
-            </tr>
-            <tr>
-                <td>גן 3</td>
-                <td>אופי הגן 3</td>
-                <td>כתובת 3</td>
-                <td>מחיר 3</td>
-            </tr>
-        </tbody>
+  <div class="alltable">
+    <table class="ganimList">
+      <tr class="ganimHader">
+        <th>שם הגן</th>
+        <th>אופי הגן</th>
+        <th>כתובת</th>
+        <th>דירוג</th>
+      </tr>
+      <tr>
+        <td>גן הגפן</td>
+        <td>חילוני</td>
+        <td>באר שבע, שכונה ה</td>
+        <td>כוכבים</td>
+      </tr>
+      <tr>
+        <td>גן הסמים</td>
+        <td>דתי</td>
+        <td>באר שבע, שכונה ז</td>
+        <td>כוכבים</td>
+      </tr>
     </table>
+
+    <div class="sortList">
+      <h3>מיון לפי</h3>
+      <ul>
+        <li>
+          <h4>אופי הגן</h4>
+          <ul class="sort1">
+            <li>דתי</li>
+            <li>חילוני</li>
+            <li>ממלכתי</li>
+          </ul>
+        </li>
+        <li>
+          <h4>שכונה</h4>
+          <ul class="sort2">
+            <li>שכונה א</li>
+            <li>שכונה ב</li>
+            <li>שכונה ג</li>
+          </ul>
+        </li>
+        <li>
+          <h4>דירוג</h4>
+          <ul class="sort3">
+            <li>כוכבים</li>
+            <li>כוכבים</li>
+            <li>כוכבים</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+
+
 </body>
 
 </html>
